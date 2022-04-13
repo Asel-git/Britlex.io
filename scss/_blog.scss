@@ -1,5 +1,8 @@
 @import "vars";
 
+.blog__title {
+  text-align: center;
+}
 .card,
 .card-2,
 .card-3,
@@ -10,6 +13,7 @@
   border-radius: 10px;
 
   &__bottom {
+    display: grid;
     padding: 0 45px 0 43px;
     font-family: "Poppins";
     font-style: normal;
