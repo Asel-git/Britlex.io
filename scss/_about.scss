@@ -1,1 +1,46 @@
 @import "vars";
+
+// .container {
+//   max-width: 1336px;
+//   margin: 0 auto;
+// }
+
+.about__us__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 194px;
+}
+
+.about__us__right {
+  width: 50%;
+}
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 20px;
+  //color: vars($grey);
+  color: #8f95a5;
+}
+
+.about__us__left {
+  width: 30%;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import "about";
 @import "contact";
 @import "pricing";
@@ -5,3 +13,12 @@
 @import "logo";
 @import "menu";
 @import "globals";
+@import "btn";
+@import "title";
+@import "footer";
+
+.container {
+  max-width: 1336px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

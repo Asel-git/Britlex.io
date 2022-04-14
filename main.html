@@ -16,14 +16,13 @@
 
   <body>
     <header></header>
-
     <main>
       <section class="blog">
         <div class="container">
           <h2 class="section-title blog__title">Skills</h2>
           <div class="card">
             <div class="card__top">
-              <img src="images/card-img.svg" alt="" />
+              <img src="images/card-img.svg" alt="card" />
             </div>
             <div class="card__bottom">
               <h3 class="card__title">Speaking</h3>
@@ -81,42 +80,112 @@
           </div>
         </div>
       </section>
-      <section><h2>About us</h2></section>
-      <section class="pricing">
+      <section class="about__us">
         <div class="container">
-          <h2 class="prising-title">Pricing</h2>
-          <div class="wrap">
-            <div class="self-study">
-              <img src="/images/self-study.svg" alt="woman" />
-              <h4 class="title">Self-study online course</h4>
-              <p class="description">
-                Start learning English online in live classes with qualified EC
-                teachers and students from all over the world.
+          <div class="about__us__inner">
+            <div class="about__us__right">
+              <h2>About Us</h2>
+              <p>
+                The model offers a framework for discussing problems related to
+                the user's experience, as well as possible ways and means of
+                solving them. Application development begins at the top level
+                (strategy), where the future software product is described quite
+                abstractly from the point of view of the expectations of both
+                users and the customer.
               </p>
-              <img class="price" src="/images/five.svg" alt="price" />
+              <ul>
+                <li>
+                  <h2>800</h2>
+                  <p>Pupils</p>
+                </li>
+                <li>
+                  <h2>18</h2>
+                  <p>Teachers</p>
+                </li>
+                <li>
+                  <h2>6</h2>
+                  <p>Foreign languages</p>
+                </li>
+              </ul>
             </div>
-            <div class="live-online">
-              <img src="/images/live-online.svg" alt="men" />
-              <h4 class="title">Live online classes</h4>
-              <p class="description live">
-                interactive group classes with expert teachers. Free 7-day trial
-              </p>
-              <img class="price" src="/images/twelve.svg" alt="price" />
-            </div>
-            <div class="personal-tuition">
-              <img src="/images/personal.svg" alt="woman" />
-              <h4 class="title">Personal Tuition</h4>
-              <p class="description">
-                Online one-to-one English tutoring – enjoy our first session for
-                only $1
-              </p>
-              <img class="price" src="/images/twenty.svg" alt="price" />
+            <div class="about__us__left">
+              <img
+                src="./images/Business competition-bro1.png"
+                alt="Business competition"
+              />
             </div>
           </div>
         </div>
       </section>
-      <section><h2>Contact Us</h2></section>
+      <section class="pricing">
+        <div class="container">
+          <h2 class="pricing__title title">Pricing</h2>
+          <div class="wrap">
+            <div class="self-study cont">
+              <img src="/images/self-study.svg" alt="woman" />
+              <h4 class="self-study__title title2">Self-study online course</h4>
+              <p class="self-study__description">
+                Start learning English online in live classes with qualified EC
+                teachers and students from all over the world.
+              </p>
+              <img class="price1" src="/images/five.svg" alt="price" />
+            </div>
+            <div class="live-online cont">
+              <img src="/images/live-online.svg" alt="men" />
+              <h4 class="live-online__title title2">Live online classes</h4>
+              <p class="live-online__description">
+                interactive group classes with expert teachers. Free 7-day trial
+              </p>
+              <img class="price2" src="/images/twelve.svg" alt="price" />
+            </div>
+            <div class="personal-tuition cont">
+              <img class="image" src="/images/personal.svg" alt="woman" />
+              <h4 class="title2">Personal Tuition</h4>
+              <p class="personal-tuition__description">
+                Online one-to-one English tutoring – enjoy our first session for
+                only $1
+              </p>
+              <img class="price3" src="/images/twenty.svg" alt="price" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us">
+        <div class="container">
+          <div class="contact-us__inner">
+            <div class="contact-us__right">
+              <img src="./images/contact-us-img.svg" alt="contuct-us" />
+            </div>
+            <div class="contact-us__left">
+              <h2 class="contact-us__title title">Contact Us</h2>
+              <p class="contact-us__description">
+                Discover your current English level by taking our free online
+                English test.Sign up to our newsletter for learning tips and
+                free resources
+              </p>
+              <div class="contact-us__left-btn">
+                <input
+                  class="email"
+                  type="email"
+                  name="login"
+                  value="Enter Your E-mail"
+                />
+                <a class="btn" href="#">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <hr />
+        <div class="footer__inner">
+          <a class="footer__logo logo" href="#">
+            <img src="./images/logo.svg" alt="Logo" />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
