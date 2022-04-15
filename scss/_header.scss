@@ -2,6 +2,7 @@
 
 .header {
   padding-top: 53px;
+
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,7 @@
   }
 }
 .hero {
-  padding: 109px 0 188px;
+  padding: 39px 0 156px;
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -47,6 +48,7 @@
     gap: 16px;
   }
   &__title {
+    margin: 0;
     min-width: 386px;
     font-family: $main-font;
     font-style: normal;
@@ -90,6 +92,9 @@
   border: 2px solid #263238;
   box-sizing: border-box;
   border-radius: 5px;
+}
+.hero__secondary {
+  margin: 0;
 }
 .secondary__img {
   margin-left: 20px;
