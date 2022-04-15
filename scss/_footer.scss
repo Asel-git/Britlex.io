@@ -11,7 +11,7 @@
   &__logo {
     padding-right: 250px;
   }
-  &__links {
+  &__logo-link {
     font-family: $secondary-font;
     font-style: normal;
     font-weight: 400;
@@ -21,9 +21,21 @@
     color: $grey;
   }
 }
+.footer__info {
+  padding-left: 330px;
+}
 
-.footer__links a {
+.info {
+  position: sticky;
+  right: 0;
+  margin: left auto;
   text-decoration: none;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: $grey;
 }
 
 hr {

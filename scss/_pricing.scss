@@ -3,6 +3,10 @@
 .pricing {
   padding-top: 188px;
   padding-bottom: 290px;
+
+  &__title {
+    text-align: center;
+  }
 }
 
 .wrap {
@@ -46,4 +50,34 @@
   max-width: 198px;
   min-height: 45px;
   background-color: #aab2c7;
+}
+
+@media screen and (max-width: 992px) {
+  .pricing {
+    margin: 0 auto;
+  }
+
+  .self-study__img {
+    max-width: 267px;
+  }
+  .self-study__title {
+    max-width: 273px;
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .self-study__description {
+    max-width: 336px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .price1 {
+    max-width: 205px;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img {
+    width: 100%;
+  }
 }
