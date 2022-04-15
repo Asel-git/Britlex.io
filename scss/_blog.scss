@@ -3,17 +3,14 @@
 .blog__title {
   text-align: center;
 }
-.card,
+.card-1,
 .card-2,
-.card-3,
-.card-4 {
-  display: grid;
+.card-3 {
   max-width: 435px;
   background-color: #f5f5f5;
   border-radius: 10px;
 
   &__bottom {
-    display: grid;
     padding: 0 45px 0 43px;
     font-family: "Poppins";
     font-style: normal;
@@ -23,7 +20,13 @@
     color: #8f95a5;
   }
 }
-.card {
+
+.wrapper {
+  display: grid;
+  max-width: 1336px;
+  margin: 0 auto;
+}
+.card-1 {
   &__top {
     padding: 35px 22px 0 23px;
     text-align: center;
@@ -38,5 +41,11 @@
     &__top {
       padding: 9px 63px 0 1px;
     }
+  }
+}
+
+.card-4__left {
+  &__ieft {
+    padding: 49px 27px 39px 476px;
   }
 }

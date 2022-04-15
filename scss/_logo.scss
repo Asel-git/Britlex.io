@@ -1,1 +1,10 @@
 @import "vars";
+
+.logo {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  color: $black;
+}

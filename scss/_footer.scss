@@ -1,0 +1,46 @@
+@import "vars";
+
+.footer {
+  padding-bottom: 64px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    padding-right: 250px;
+  }
+  &__logo-link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: $grey;
+  }
+}
+.footer__info {
+  padding-left: 330px;
+}
+
+.info {
+  position: sticky;
+  right: 0;
+  margin: left auto;
+  text-decoration: none;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: $grey;
+}
+
+hr {
+  margin-bottom: 31px;
+  border: none;
+  height: 1px;
+  background: #c4c4c4;
+}
