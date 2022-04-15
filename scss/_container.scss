@@ -1,5 +1,30 @@
+@import "vars";
+
 .container {
   max-width: 1336px;
-  //   padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 703px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 }
