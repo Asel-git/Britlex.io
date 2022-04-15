@@ -18,13 +18,14 @@
 }
 
 .cont {
-  max-width: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title2 {
-  padding-top: 40px;
-  text-align: start;
-  font-family: $secondary-font;
+  // max-width: 372px;: start;
+  font-family: $main-font;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -34,8 +35,9 @@
   color: $dark;
 }
 
-.description {
-  font-family: $secondary-font;
+.descr {
+  flex-grow: 1;
+  font-family: $main-font;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -48,9 +50,12 @@
 .price3 {
   padding: 10px;
   max-width: 198px;
-  min-height: 45px;
   background-color: #aab2c7;
 }
+
+// .price3. {
+//   padding-top: -20px;
+// }
 
 @media screen and (max-width: 992px) {
   .pricing {

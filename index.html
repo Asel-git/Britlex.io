@@ -6,40 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://   fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/   css2?family=Lato:wght@400;900&family=Open   +Sans:ital,wght@0,300;0,400;0,700;1,300&   family=Poppins:wght@400;500;600&   display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
 
   <body>
-    <header></header>
-    <main>
-      <section class="blog">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="britlex" />
+          </a>
+          <button class="header__nav-toggle">
+            <svg
+              width="30"
+              height="17"
+              viewBox="0 0 30 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="30" height="3" rx="1" fill="#39515E" />
+              <rect y="7" width="30" height="3" rx="1" fill="#39515E" />
+              <rect y="14" width="21.2195" height="3" rx="1" fill="#39515E" />
+            </svg>
+          </button>
+          <nav class="header__nav">
+            <ul class="menu">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Home</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Skills</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">About Us</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#"> Pricing</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="talk-block">
+            <a class="btn talk-block__link" href="#">Let’s Talk</a>
+          </div>
+        </div>
+      </div>
+    </header>
+   
+    <main class="index-main">
+      <section class="hero">
         <div class="container">
-          <h2 class="section-title blog__title">Skills</h2>
-          <div class="card">
-            <div class="card__top">
-              <img src="images/card-img.svg" alt="card" />
+          <div class="hero__inner">
+            <div class="hero__first">
+              <div class="hero__first-block">
+                <h1 class="hero__title">Learn Any Foreign Language</h1>
+                <div class="hero__light">
+                  <img
+                    class="bulb"
+                    src="images/light-bulb.svg"
+                    alt="light-bulb"
+                  />
+                </div>
+              </div>
+              <p class="hero__info">
+                With our teachers who write a program for each student, you will
+                be able to make your first sketch after the first lesson.
+              </p>
+              <a class="hero__link btn" href="#">Get started</a>
             </div>
-            <div class="card__bottom">
-              <h3 class="card__title">Speaking</h3>
-              <p>
-                Improve your English skills and confidence. Live classes and
-                interactive lessons online. 20% extra free for a limited time
-                only
-              </p>
-              <p>
-                Learn English online and improve your skills through our
-                high-quality courses and resources – all designed for adult
-                language learners.
-              </p>
-              <a href="#" class="card__link">Learn more</a>
+            <div class="hero__secondary">
+              <img class="secondary__img" src="images/learning-bg.svg" alt="" />
             </div>
           </div>
         </div>
+      </section>
+
+   
+      <section class="skills">
+        <div class="container">
+          <h2 class="blog__title">Skills</h2>
+          <div class="wrapper">
+            <div class="card">
+              <div class="card__top">
+                <img src="images/card-img.svg" alt="" />
+              </div>
+              <div class="card__bottom">
+                <h3 class="card__title">Speaking</h3>
+                <p>
+                  Improve your English skills and confidence. Live classes and
+                  interactive lessons online. 20% extra free for a limited time
+                  only
+                </p>
+                <p>
+                  Learn English online and improve your skills through our
+                  high-quality courses and resources – all designed for adult
+                  language learners.
+                </p>
+                <a href="#" class="btn card__link">Learn more</a>
+              </div>
+            </div>
+          </div>
         <div class="card-2">
           <div class="card-2__top">
             <img src="images/card-2-img.svg" alt="" />
@@ -79,6 +153,20 @@
             <a href="#" class="card-4__link">Learn more</a>
           </div>
         </div>
+            <div class="container-4">
+              <div class="card-4__top">
+                <img src="images/card-3-img.svg" alt="" />
+              </div>
+              <div class="card-4__bottom">
+                <h3 class="card-4__title">Reading</h3>
+                <p>
+                  perception and response actions of the user resulting from the
+                  use and/or upcoming use of the product, system or service
+                </p>
+  
+                <a href="#" class="btn card-4__link">Learn more</a>
+              </div>
+           </div>
       </section>
       <section class="about__us">
         <div class="container">
@@ -113,22 +201,24 @@
                 src="./images/Business competition-bro1.png"
                 alt="Business competition"
               />
+
             </div>
           </div>
         </div>
       </section>
+
       <section class="pricing">
         <div class="container">
           <h2 class="pricing__title title">Pricing</h2>
           <div class="wrap">
             <div class="self-study cont">
-              <img
+              <img class="self-study__img"
                 class="self-study__img"
                 src="/images/self-study.svg"
                 alt="woman"
               />
               <h4 class="self-study__title title2">Self-study online course</h4>
-              <p class="self-study__description">
+              <p class="self-study__description descr">
                 Start learning English online in live classes with qualified EC
                 teachers and students from all over the world.
               </p>
@@ -137,19 +227,19 @@
             <div class="live-online cont">
               <img class="img" src="/images/live-online.svg" alt="men" />
               <h4 class="live-online__title title2">Live online classes</h4>
-              <p class="live-online__description">
+              <p class="live-online__description descr">
                 interactive group classes with expert teachers. Free 7-day trial
               </p>
-              <img class="price2" src="/images/twelve.svg" alt="price" />
+              <img class="price2" src="/images/twelve.svg" alt="price" />            
             </div>
             <div class="personal-tuition cont">
               <img class="img" src="/images/personal.svg" alt="woman" />
               <h4 class="title2">Personal Tuition</h4>
-              <p class="personal-tuition__description">
+              <p class="personal-tuition__description descr">
                 Online one-to-one English tutoring – enjoy our first session for
                 only $1
               </p>
-              <img class="price3" src="/images/twenty.svg" alt="price" />
+              <img class="price3" src="/images/twenty.svg" alt="price" />          
             </div>
           </div>
         </div>
