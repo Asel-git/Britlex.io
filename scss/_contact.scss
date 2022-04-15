@@ -1,1 +1,51 @@
 @import "vars";
+
+.contact-us {
+  padding-bottom: 133px;
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 112px;
+  }
+  &__title {
+    padding-bottom: 37px;
+  }
+  &__description {
+    padding-bottom: 52px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $grey;
+  }
+  &__left-btn {
+    display: flex;
+  }
+}
+
+.email {
+  width: 450px;
+  padding: 26px 30px 33px;
+  margin-right: 12px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  color: $grey;
+}
+
+.contact-us__left-btn a {
+  padding: 25px 81px 25px 82px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
