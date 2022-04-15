@@ -1,18 +1,13 @@
 @import "vars";
 
-.container {
-  max-width: 1336px;
-  margin: 0 auto;
-}
-
-.about__us__inner {
+&__inner {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 194px;
 }
 
-.about__us__right {
+&__right {
   width: 50%;
 }
 h2 {
@@ -25,7 +20,7 @@ p {
   color: #8f95a5;
 }
 
-.about__us__left {
+&__left {
   width: 30%;
 }
 
